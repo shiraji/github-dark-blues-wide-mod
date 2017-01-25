@@ -2257,6 +2257,19 @@ article h2 {
     background: #123;
 }
 /**************************************************/
+/* Modified by shiraji. Dynamic width for PR */
+/**************************************************/
+
+.discussion-timeline {
+    width: 75%;
+}
+.discussion-sidebar {
+    width: 20%;
+}
+.timeline-new-comment {
+    max-width: none;
+}
+/**************************************************/
 /* Modified by shiraji. Clear README background */
 /**************************************************/
 
@@ -2288,4 +2301,38 @@ article h2 {
 }
 .user-profile-sticky-bar::after {
     background-color: #456;
+}
+/**************************************************/
+/* Modified by shiraji. Clear more repo button color */
+/**************************************************/
+
+.more-repos {
+    background-color: transparent;
+}
+/**************************************************/
+/* Modified by shiraji. Clear timeline more button color */
+/**************************************************/
+
+.ajax-pagination-form .ajax-pagination-btn {
+    background: #456;
+}
+/**************************************************/
+/* Modified by shiraji. Clear input block */
+/**************************************************/
+
+.input-block {
+    background: none;
+    color: #fff;
+}
+.form-control,
+.form-select {
+    background: none;
+    color: #fff;
+}
+/**************************************************/
+/* Modified by shiraji. Change focused cell color */
+/**************************************************/
+
+.Box-row--focus-gray.navigation-focus {
+    background-color: #123;
 }
