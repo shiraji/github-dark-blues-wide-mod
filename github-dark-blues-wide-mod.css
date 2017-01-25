@@ -2336,3 +2336,10 @@ article h2 {
 .Box-row--focus-gray.navigation-focus {
     background-color: #123;
 }
+/**************************************************/
+/* Modified by shiraji. Clear merge status cell */
+/**************************************************/
+
+.merge-status-item {
+    background-color: transparent;
+}
