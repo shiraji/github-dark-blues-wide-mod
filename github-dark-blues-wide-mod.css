@@ -2257,33 +2257,35 @@ article h2 {
     background: #123;
 }
 /**************************************************/
-/* Modified by shiraji. Dynamic width for PR */
-/**************************************************/
-.discussion-timeline {
-    width: 75%;
-}
-.discussion-sidebar {
-    width: 20%;
-}
-.timeline-new-comment {
-    max-width: none;
-}
-/**************************************************/
 /* Modified by shiraji. Clear README background */
 /**************************************************/
-#readme .markdown-body, #readme .plain {
+
+#readme .markdown-body,
+#readme .plain {
     background-color: transparent;
 }
 /**************************************************/
 /* Modified by shiraji. Clear bg-white background. e.g. contribution year's background */
 /**************************************************/
+
 .bg-white {
     background-color: transparent !important;
 }
 /**************************************************/
 /* Modified by shiraji. Clear border of contribution timeline */
 /**************************************************/
+
 .profile-timeline-card-wrapper {
     border-top: none;
     border-bottom: none;
+}
+/**************************************************/
+/* Modified by shiraji. Clear white color from profile nav */
+/**************************************************/
+
+.user-profile-nav {
+    background-color: transparent;
+}
+.user-profile-sticky-bar::after {
+    background-color: #456;
 }
