@@ -1,4 +1,4 @@
-/*! Github Dark Blues Theme v1.11.1 (16-May-2016) */
+/*! Github Dark Blues Theme v1.14.0 (04-Oct-2016) */
 /*
    * https://github.com/doublehelix/Stylish-Themes
    * http://userstyles.org/styles/120866
@@ -99,6 +99,15 @@ body {
 .main-content {
     padding-bottom: 24px;
 }
+.discussion-sidebar {
+    padding: 0.8em;
+    border: 1px solid #789;
+    border-radius: 0.4em;
+    box-shadow: 0.2em 0.2em 0.5em rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    background: #123;
+    width: 220px;
+}
 .discussion-timeline-actions {
     border-top: 2px solid transparent;
     background: transparent;
@@ -196,7 +205,8 @@ a.tabnav-extra:hover {
 .text-emphasized {
     color: #fff;
 }
-.text-muted {
+.text-muted,
+.text-gray {
     color: #ccc !important;
 }
 .table-list {
@@ -336,6 +346,10 @@ input.input-contrast:focus,
     background-color: #6E5494;
     border: 1px solid #9e84c4;
 }
+.orghead {
+    background-color: #123;
+    color: #ccc;
+}
 .org-link {
     color: #ccc;
 }
@@ -350,6 +364,15 @@ input.input-contrast:focus,
 }
 .member-info .member-fullname {
     color: #ccc;
+}
+.team-grid .team {
+    background: #234;
+}
+.team-grid .team-name {
+    color: #fff;
+}
+.team-grid .team-members {
+    background-color: #456;
 }
 .feature .intro {
     color: #ccc;
@@ -428,18 +451,22 @@ input.input-contrast:focus,
 /*************** BUTTONS AND LINKS ****************/
 /**************************************************/
 
-a {
-    /* color: #70A8F0; */
-    
-    color: #6f6;
-}
 .branch-name {
     background-color: #234;
     border: 1px solid #789;
     color: #fff;
 }
+a {
+    /* color: #70A8F0; */
+    
+    color: #6f6;
+}
 a.branch-name {
     color: #fff;
+}
+a.text-gray-light,
+a.link-gray-dark {
+    color: #6f6 !important;
 }
 .btn {
     color: #fff;
@@ -694,6 +721,12 @@ p.explain {
 .discussion-item .renamed-is {
     color: #eee;
 }
+.discussion-item-icon {
+    background-color: #123;
+    border: 2px solid #fff;
+    color: #fff;
+    line-height: 26px;
+}
 .repo-list-description {
     color: #ddd;
 }
@@ -788,6 +821,9 @@ p.explain {
 .octofication .broadcast-icon {
     color: #6f6;
 }
+.user-nav .dropdown-item {
+    color: #eee;
+}
 /**************************************************/
 /* CONTAINERS */
 /**************************************************/
@@ -827,6 +863,17 @@ p.explain {
     background-color: #234;
     border-bottom: 1px solid #789;
 }
+.simple-conversation-list,
+.authors-and-code {
+    background: #234;
+    padding: 0.4em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.diffstat-summary,
+.diffstat-summary strong {
+    color: #ccc;
+}
 .boxed-group > h3,
 .boxed-group .heading {
     background-color: #234;
@@ -862,12 +909,14 @@ p.explain {
     border-radius: 3px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.075);
 }
-.setup-wrapper .oauth-permissions-details {
+.setup-wrapper .oauth-permissions-details,
+.oauth-wrapper .setup-wrapper .oauth-permissions-details {
     background-color: #234;
 }
 .oauth-permissions-details .permission-title {
     color: #fff;
 }
+.oauth-permissions-details .octicon,
 .oauth-permissions-details .mega-octicon {
     color: #ddd;
 }
@@ -880,6 +929,17 @@ p.explain {
 }
 .member-badge .octicon {
     color: #eee;
+}
+.tutorial {
+    background-color: #123;
+    border: 1px solid #fff;
+}
+.review-thread-reply {
+    background-color: #456;
+    border-top: 1px solid #e5e5e5;
+}
+.review-thread-reply .inline-comment-form {
+    background-color: #789;
 }
 /**************************************************/
 /* ICONS */
@@ -940,9 +1000,38 @@ a .mega-octicon {
 /* MAIN REPO */
 /**************************************************/
 
+.new-repo-container {
+    background: #234;
+    border: 1px solid #678;
+    border-radius: 4px;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+.owner-select-target {
+    background-color: #123;
+    color: #eee;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.RecentBranches {
+    background-color: #123;
+    border: 1px solid #8f0;
+}
+.RecentBranches-item {
+    color: #ccc;
+}
+.RecentBranches-item-link {
+    color: #fff;
+}
+.RecentBranches .octicon {
+    color: #fff;
+}
 .user-mention,
 .team-mention {
     color: #fff;
+}
+.dropdown-menu {
+    background: #123;
+    border: 1px solid #789;
 }
 .branch-infobar {
     color: #ccc;
@@ -977,6 +1066,9 @@ a .mega-octicon {
 .commit-tease-contributors a.muted-link:hover {
     color: #6f6;
 }
+.numbers-summary {
+    background: #234;
+}
 .numbers-summary .octicon {
     color: #eee;
 }
@@ -986,6 +1078,9 @@ a .mega-octicon {
 .numbers-summary a,
 .numbers-summary .nolink {
     color: #ddd;
+}
+.repository-lang-stats-numbers {
+    background: #123;
 }
 .repo-list-stats .repo-list-stat-item {
     color: #fff;
@@ -1037,11 +1132,6 @@ table.files td.age {
 .breadcrumb strong.final-path {
     color: #eee;
 }
-.discussion-item.discussion-commits {
-    background: #456;
-    border: 1px solid #678;
-    border-radius: 8px;
-}
 .discussion-item,
 .discussion-item + .discussion-item {
     background: #123;
@@ -1050,6 +1140,13 @@ table.files td.age {
     padding-top: 7px;
     padding-bottom: 7px;
     padding-right: 1em;
+}
+.discussion-item.discussion-commits {
+    margin: 15px 0 15px 79px;
+    padding-left: 45px;
+    background: #345;
+    border: 1px solid #678;
+    border-radius: 8px;
 }
 .discussion-item-changes-marker {
     margin-bottom: 15px;
@@ -1141,7 +1238,8 @@ table.files td.age {
 .blob-code-deletion.selected-line {
     background-color: #09f;
 }
-.file-header {
+.file-header,
+.discussion-item-review .file-header {
     background-color: #345;
     border-bottom: 1px solid #D8D8D8;
     border-top-left-radius: 2px;
@@ -1251,6 +1349,33 @@ mark {
 /* Releases/Tags */
 /**************************************************/
 
+.release-meta,
+.release-body {
+    border: 1px solid #789;
+    margin-top: 1.5em;
+}
+.release-body {
+    background: #456;
+    border-radius: 0 12px 12px 12px;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.5);
+}
+.release-meta {
+    border-radius: 8px 0 0 8px;
+    border-right: none;
+    background: #345;
+}
+.release-body-form {
+    background: #456;
+    border-radius: 8px 8px 4px 4px;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.5);
+}
+.release-body-form .previewable-comment-form .write-content,
+.release-body-form .previewable-comment-form .preview-content {
+    padding-bottom: 0;
+}
+.release.label-latest .release-body {
+    box-shadow: 1px 1px 8px #6cc644;
+}
 .release-authorship {
     color: #ccc;
 }
@@ -1275,6 +1400,25 @@ a:active {
     text-decoration-color: #9cf674;
     text-decoration-line: underline;
     text-decoration-style: solid;
+}
+/**************************************************/
+/* Issues List */
+/**************************************************/
+
+.Box-body {
+    background-color: #234;
+}
+.Box-body-row {
+    border-top: 1px solid #eee;
+}
+.Box-body-row.unread {
+    box-shadow: 3px 0 0 #6cc644 inset;
+}
+.Box-body-row--highlight.navigation-focus {
+    background-color: #456;
+}
+.Box-body-row--highlight .Box-row-link {
+    color: #eee;
 }
 /**************************************************/
 /* General */
@@ -1404,6 +1548,12 @@ a:active {
 .merge-branch-heading {
     color: #eee;
 }
+.suggester {
+    color: #333;
+}
+.suggester li small {
+    color: #333;
+}
 /**************************************************/
 /* TIMELINE */
 /**************************************************/
@@ -1478,6 +1628,14 @@ a:active {
     color: #fff;
     background: none;
 }
+.discussion-timeline {
+    width: 80%;
+}
+.discussion-timeline::before {
+    background: transparent;
+    content: none;
+    width: 0;
+}
 .timeline-comment-wrapper {
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
@@ -1495,7 +1653,6 @@ a:active {
     background-color: #567;
     border: 1px solid #678;
     border-radius: 7px;
-    box-shadow: 0 0 4px #444;
 }
 .timeline-comment.current-user {
     border-color: #BFCCD1;
@@ -1557,8 +1714,24 @@ a:active {
 .timeline-comment-action:hover {
     color: #6f6;
 }
+.review-comment {
+    background: #234;
+}
 .btn-link.timeline-comment-action.delete-button {
     color: #F00;
+}
+.comment-reactions .user-has-reacted {
+    background-color: #6cc644;
+}
+/**************************************************/
+/* NOTES / Task Lists etc. */
+/**************************************************/
+
+.reorderable-task-lists .markdown-body .task-list-item.hovered {
+    background: #234;
+    border-top-color: #789;
+    border-bottom-color: #789;
+    box-shadow: 0 0 5px #6cc644;
 }
 /**************************************************/
 /* BRANCH ACTIONS AND MERGING */
@@ -1945,6 +2118,22 @@ article h2 {
 .exploregrid-item {
     background-color: #fff;
 }
+.intgrs-lstng-item {
+    background: #123;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.intgrs-lstng-item .intgrs-lstng-item-header {
+    color: #fff;
+}
+/** INTEGRATIONS **/
+
+.intgrs-lstng-categories-container .intgrs-lstng-categories {
+    padding: 10px;
+    background: #234;
+    border: 1px solid #789;
+    border-radius: 4px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
 /**************************************************/
 /* POPUPS */
 /**************************************************/
@@ -2070,7 +2259,6 @@ article h2 {
 /**************************************************/
 /* Modified by shiraji. Dynamic width for PR */
 /**************************************************/
-
 .discussion-timeline {
     width: 75%;
 }
@@ -2085,4 +2273,17 @@ article h2 {
 /**************************************************/
 #readme .markdown-body, #readme .plain {
     background-color: transparent;
+}
+/**************************************************/
+/* Modified by shiraji. Clear bg-white background. e.g. contribution year's background */
+/**************************************************/
+.bg-white {
+    background-color: transparent !important;
+}
+/**************************************************/
+/* Modified by shiraji. Clear border of contribution timeline */
+/**************************************************/
+.profile-timeline-card-wrapper {
+    border-top: none;
+    border-bottom: none;
 }
