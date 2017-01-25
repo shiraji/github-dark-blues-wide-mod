@@ -12,7 +12,7 @@ There is a problem with README and PR color, so I created this repo for me.
 
 # To Apply GitHub Enterprise
 
-To ignore GitHub pages. Add URL `((?!page).)*[GitHub Enterprise URL].*`
+To ignore GitHub pages, add URL `((?!page).)*[GitHub Enterprise URL].*`
 
 # LICENSE
 
