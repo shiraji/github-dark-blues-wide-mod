@@ -2343,3 +2343,51 @@ article h2 {
 .merge-status-item {
     background-color: transparent;
 }
+/**************************************************/
+/* Modified by shiraji. Change the color of sub header */
+/**************************************************/
+
+.text-gray-dark {
+    color: #ccc !important;
+}
+/**************************************************/
+/* Modified by shiraji. Change the color of project header */
+/**************************************************/
+
+.bg-gray {
+    background-color: transparent !important;
+}
+/**************************************************/
+/* Modified by shiraji. Change the diff empty cell color */
+/**************************************************/
+
+.file-diff-split .empty-cell {
+    background-color: #789;
+}
+/**************************************************/
+/* Modified by shiraji. Change the color of project */
+/**************************************************/
+
+.project-header {
+    background-color: transparent;
+}
+.project-columns {
+    background-color: transparent;
+}
+.bg-gray-light {
+    background-color: transparent !important;
+}
+/**************************************************/
+/* Modified by shiraji. Change the color of form */
+/**************************************************/
+
+.form-group .form-control {
+    background-color: transparent;
+}
+/**************************************************/
+/* Modified by shiraji. Change the color of project list */
+/**************************************************/
+
+.container-lg {
+    max-width: inherit;
+}
