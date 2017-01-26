@@ -2388,10 +2388,12 @@ article h2 {
 /* Modified by shiraji. Change the color of project list */
 /**************************************************/
 
-.container-lg {
+.container-lg.border.rounded-1 {
     max-width: inherit;
 }
-
+.p-3.pr-5.container-lg.position-relative.border-bottom.border-gray-light {
+    max-width: inherit;
+}
 /**************************************************/
 /* Modified by shiraji. Change the comment width */
 /**************************************************/
