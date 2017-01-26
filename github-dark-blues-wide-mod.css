@@ -2401,7 +2401,6 @@ article h2 {
 .comment-holder {
     max-width: inherit;
 }
-
 /**************************************************/
 /* Modified by shiraji. Change the branch menu color */
 /**************************************************/
@@ -2410,34 +2409,63 @@ article h2 {
     background-color: #456;
     color: #6f6;
 }
-
 .select-menu-item.selected {
     color: #fff;
 }
-
 .select-menu-header {
     background-color: #123;
 }
-
 .select-menu-header .select-menu-title {
     font-weight: 600;
     color: #fff;
     text-shadow: none;
 }
-
 .select-menu-filters {
     background-color: transparent;
 }
-
-.select-menu-tabs a.selected, .select-menu-tabs .select-menu-tab-nav.selected {
+.select-menu-tabs a.selected,
+.select-menu-tabs .select-menu-tab-nav.selected {
     color: inherit;
     background-color: transparent;
 }
-
 /**************************************************/
 /* Modified by shiraji. Change the filter menu color */
 /**************************************************/
 
 .select-menu-item {
     background-color: transparent;
+}
+/**************************************************/
+/* Modified by shiraji. Change the selected nav item color */
+/**************************************************/
+
+.underline-nav-item.selected {
+    color: #fff;
+}
+/**************************************************/
+/* Modified by shiraji. Change the trending color */
+/**************************************************/
+
+.repo-collection>ul {
+    background: transparent;
+}
+
+.explore-section:nth-child(even) {
+    background: transparent;
+}
+
+.explore-section:nth-child(even) .repo-collection>ul {
+    background: transparent;
+}
+
+.exploregrid-item {
+    background-color: transparent;
+}
+
+.collection-stat {
+    color: #fff;
+}
+
+.exploregrid-item-title {
+    color: #ccc;
 }
