@@ -2391,3 +2391,11 @@ article h2 {
 .container-lg {
     max-width: inherit;
 }
+
+/**************************************************/
+/* Modified by shiraji. Change the comment width */
+/**************************************************/
+
+.comment-holder {
+    max-width: inherit;
+}
