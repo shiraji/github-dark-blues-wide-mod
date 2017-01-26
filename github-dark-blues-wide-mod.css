@@ -2327,6 +2327,12 @@ article h2 {
 .form-control,
 .form-select {
     background: none;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.form-group .form-control:focus {
+    background: none;
+    background-repeat: no-repeat;
     color: #fff;
 }
 /**************************************************/
@@ -2428,6 +2434,9 @@ article h2 {
     color: inherit;
     background-color: transparent;
 }
+.select-menu-action {
+    color: inherit;
+}
 /**************************************************/
 /* Modified by shiraji. Change the filter menu color */
 /**************************************************/
@@ -2449,23 +2458,18 @@ article h2 {
 .repo-collection>ul {
     background: transparent;
 }
-
 .explore-section:nth-child(even) {
     background: transparent;
 }
-
 .explore-section:nth-child(even) .repo-collection>ul {
     background: transparent;
 }
-
 .exploregrid-item {
     background-color: transparent;
 }
-
 .collection-stat {
     color: #fff;
 }
-
 .exploregrid-item-title {
     color: #ccc;
 }
