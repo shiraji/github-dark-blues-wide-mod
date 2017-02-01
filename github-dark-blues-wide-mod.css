@@ -2473,3 +2473,15 @@ article h2 {
 .exploregrid-item-title {
     color: #ccc;
 }
+
+/**************************************************/
+/* Modified by shiraji. Change the topic color */
+/**************************************************/
+
+.topic-tag-action {
+    background-color: transparent;
+}
+
+.topic-tag {
+    background-color: transparent;
+ }
