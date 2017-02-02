@@ -2490,3 +2490,10 @@ article h2 {
 .dropdown-item {
     color: inherit;
 }
+/**************************************************/
+/* Modified by shiraji. Change the PR header edit color */
+/**************************************************/
+
+.gh-header-edit .edit-issue-title {
+    color: #666;
+}
