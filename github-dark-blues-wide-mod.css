@@ -2497,3 +2497,10 @@ article h2 {
 .gh-header-edit .edit-issue-title {
     color: #666;
 }
+/**************************************************/
+/* Modified by shiraji. Change the sidebar of doc */
+/**************************************************/
+
+.sidebar-menu {
+    background-color: transparent;
+}
