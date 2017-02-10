@@ -1208,7 +1208,7 @@ table.files td.age {
     background-color: #456;
 }
 .blob-code-inner {
-    color: #fff;
+    color: #789;
 }
 .blob-code-deletion {
     background-color: #9F5C5C;
@@ -2503,4 +2503,18 @@ article h2 {
 
 .sidebar-menu {
     background-color: transparent;
+}
+/**************************************************/
+/* Modified by shiraji. Change the color of doc */
+/**************************************************/
+
+.content table {
+    display: table;
+}
+.alert {
+    background-color: transparent;
+}
+
+.text-alpha, .text-beta, .text-delta, .text-gamma, h1, h2, h3, h4, h5 {
+    color: inherit;
 }
