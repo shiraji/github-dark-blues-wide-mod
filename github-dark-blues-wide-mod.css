@@ -2514,7 +2514,24 @@ article h2 {
 .alert {
     background-color: transparent;
 }
-
-.text-alpha, .text-beta, .text-delta, .text-gamma, h1, h2, h3, h4, h5 {
+.text-alpha,
+.text-beta,
+.text-delta,
+.text-gamma,
+h1,
+h2,
+h3,
+h4,
+h5 {
     color: inherit;
+}
+/**************************************************/
+/* Modified by shiraji. Change for the renewal */
+/**************************************************/
+
+.underline-nav-item {
+    color: #000;
+}
+.counter {
+    background-color: #abc;
 }
