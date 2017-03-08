@@ -2535,3 +2535,9 @@ h5 {
 .counter {
     background-color: #abc;
 }
+.Box-header--blue {
+    background-color: #345;
+}
+.Box-row {
+    background-color: #345;
+}
