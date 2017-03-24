@@ -2535,9 +2535,17 @@ h5 {
 .counter {
     background-color: #abc;
 }
-.Box-header--blue {
-    background-color: #345;
+/**************************************************/
+/* Modified by shiraji. Change for follow-list org name */
+/**************************************************/
+
+.follow-list .follow-list-info {
+    color: #ccc;
 }
-.Box-row {
-    background-color: #345;
+/**************************************************/
+/* Modified by shiraji. Change for the notification box color */
+/**************************************************/
+
+.Box {
+    background-color: #456;
 }
